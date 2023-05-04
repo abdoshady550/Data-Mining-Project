@@ -1,0 +1,6 @@
+df.plot(x="Hours" ,y="scores" , style='o')
+plt.title("Hours vs Percentage")
+plt.xlabel("Hours Studied ")
+plt.ylabel("percentage Score")
+plt.plot(x_test,y_pred,color="blue" , linewidth=3)
+plt.show()
